@@ -1,9 +1,16 @@
 ### Shark Attacks - Quest ### 
 # data-cleaning-pandas
 by Carmen Matos & Ivet Petkowa
-content:    shark_attacks.ipynb
-            function.py 
-            shark_attacks_quest_CI (Google Slides)
+
+
+            content:    
+            
+            shark_attacks.ipynb, 
+            
+            function.py,  
+            
+            shark_attacks_quest_CI (Google Slides),
+            
             README.md
 
 https://docs.google.com/presentation/d/11ye4-GP-n4HfBIPm6amLJylLqzfgfPGQ_Uyl_nkTGlM/edit?usp=sharing
