@@ -1,24 +1,26 @@
-### Shark Attacks - Quest ### 
-# data-cleaning-pandas
-by Carmen Matos & Ivet Petkowa
+  <div>
+    <h2>Shark Attacks - Week 2 Quest</h2>
+    <p>by Carmen Matos & Ivet Petkowa</p>
+    <img src="https://github.com/calumatos/Shark-Attack-Quest/blob/main/shark.png" alt="shark" width="200">         
+  </div>
 
-
-            content:    
+            Content:    
             
-            shark_attacks.ipynb, 
-            
+            shark_attacks.ipynb,  
             function.py,  
-            
             shark_attacks_quest_CI (Google Slides),
-            
+            Shark_Attacks_Quest.pdf,
             README.md
+            
+To start the project we needed to read the file and load the given dataset. The dataset sharks_csv contains information about shark attacks from different locations around the world.
 
-https://docs.google.com/presentation/d/11ye4-GP-n4HfBIPm6amLJylLqzfgfPGQ_Uyl_nkTGlM/edit?usp=sharing
+After checking the content of the columns, we dropped the columns that didn't contain the information we needed or that had no values at all. We checked the number of missing values with isna().sum(), we start checking each column independently with .value_counts() and we fill the missing values in the columns with 'N' to make the analysis easier.
 
-To start the project we had to read the file and load the given database.
-The dataset sharks_csv contains information about the sharks attacks from various locations around the world.
+We also created lambda functions to replace the names of the variables of interest in our analysis. Once the columns of interest were clear, we carried out some methods to validate our hypothesis. We also created some plots to confirm our findings and conclusions. 
 
-Here's a summary of the columns:
+[View Final Presentation](https://github.com/calumatos/Shark-Attack-Quest/blob/main/Shark_Attacks_Quest.pdf)
+
+#### Here's a summary of the columns:
 
 1. **Date:** The date when the attack has happened.
 2. **Year:** The year in which the attack has happened.
@@ -43,20 +45,4 @@ Here's a summary of the columns:
 21. **original order:** Column with NaN
 22. **Unnamed: 21:** Column with NaN
 23. **Unnamed: 22:** Column with NaN
-
-After checking the contents of the columns, we need to drop the columns that don't contain the information we need or that now have no values at all. 
-
-We check the number of missing values with sharks_df.isna().sum(), we start checking each column independently with .value_counts() and
-we want to fill the missing values in the columns we have with 'N' to make the analysis easier for now.
-
-We also created lambda functions to replace the names of the variables of interest in our analysis. 
-
-Once the collums of interest were clear, we carried out some methods to validate our hypothesis. We have also created some plots to validate our findings and conclusions.
-
-
-
-
-
-
-
 
